@@ -14,9 +14,9 @@ const CACHE_NAME = 'cache_curso',
 self.addEventListener('install', e => {
     e.waitUntil(
         caches.open(CACHE_NAME)
-        .then(async cache => {
-            await cache.addAll(urlToCache)
-            return self.skipWaiting()
+        .then(cache => {
+            return cache.addAll(urlToCache)
+            .then(() => self.skipWaiting())
         })
         .catch(err => console.log('Fallo en el registro de cache', err))
     )
@@ -38,12 +38,12 @@ self.addEventListener('activate', e => {
                 })
             )
         })
-        //activar cache actual
+        //activate current cache
         .then(() => self.clients.claim())
     )
 })
 
-//Cuando se recupere la conexión
+//When the connection is recovered
 
 self.addEventListener('fetch', e =>{
     e.respondWith(
@@ -56,3 +56,34 @@ self.addEventListener('fetch', e =>{
         })
     )
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+heheheeh here is!!
+@media(max-width: 800px){
+    header{
+        display: block;
+        text-align: center;
+    }
+    nav{
+        margin-left: 0px;
+    }
+}
+*/
