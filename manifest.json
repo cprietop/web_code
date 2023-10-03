@@ -1,0 +1,64 @@
+{
+    "name":"Landing Page - PWA",
+    "short_name":"LA_PWA",
+    "description":"Está es una pagina de prueba para mi curso de FullStack",
+    "background_color": "#FFFFFF",
+    "theme-color": "#FFFFFF",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./",
+    "scope": "./",
+    "lang": "es_CO",
+    "icons":[
+        {
+            "src": "./img/logo/Log_1024.svg.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_512.svg.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_384.svg.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_256.svg.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_192.svg.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_128.svg.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_96.svg.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_64.svg.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_32.svg.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo/Log_16.svg.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}

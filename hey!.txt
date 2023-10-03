@@ -1,0 +1,14 @@
+Hi new guy, my name is Roger...
+
+First task: The guy before ya' (Gary) has destroy the landing page that he was designing (CSS just),
+he did it before he left as farewell, so rude, however he show me a photo about how
+it must be(is the "try_make_it" in "img" folder), make it look the same, it has already been approved.
+(anyway it looks easy IDK I'm from human resources xd)
+I have the ruined code if you wanna use it. In this way you can familiarize yourself,
+I know it's your first job like programmer :)
+Oohh, wait either make that the web page get adapted with a 800 width screen, U know low res
+devices, actually it looks horrible on my old iPhone, it was already implemented but
+now not, so let's work :3
+
+Pd: Don't worry about the functional part now, sure that U can find what U need there somewhere
+--- I trust ya' :D ---
